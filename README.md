@@ -64,6 +64,11 @@ sudo systemctl enable postgresql
 sudo -u postgres psql
 ```
 
+Si te da error de permisologia ejecuta el comando asi
+```
+sudo -i -u postgres psql
+```
+
 <br/>
 
 #### Mas informacion 
