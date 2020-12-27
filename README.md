@@ -37,7 +37,23 @@ exit
 #### Corremos el Demonio de Posgres 
 
 ```
-sudo systemctl START postgresql
+sudo systemctl start postgresql
+```
+
+<br/>
+
+#### Ver el status del Demonio
+
+```
+sudo systemctl status postgresql
+```
+
+<br/>
+
+#### Mantener corriendo el Demonio
+
+```
+sudo systemctl enable postgresql
 ```
 
 <br/>
@@ -49,3 +65,6 @@ sudo -u postgres psql
 ```
 
 <br/>
+
+#### Mas informacion 
+https://linuxhint.com/install-postgresql-10-arch-linux/
