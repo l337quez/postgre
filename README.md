@@ -13,10 +13,31 @@ sudo su - postgres
 <br/>
 
 #### inicializar el directorio de datos de PostgreSQL
-directorio para GNU - Linux Arch
+directorio para GNU - Linux Arch. Yo vivo en Venezela, asi que mi configuracion local es es_VE.UTF-8
 
 ```
-initdb --locale en_US.UTF-8 -D /var/lib/postgres/data
+initdb --locale es_VE.UTF-8 -D /var/lib/postgres/data
+```
+
+Si todo salio bien, entonces deberia salir algo como esto..
+Completado. Ahora puede iniciar el servidor de bases de datos usando:
+
+    pg_ctl -D /var/lib/postgres/data -l archivo_de_registro start
+
+<br/>
+
+#### Cerramos sesion 
+
+```
+exit
+```
+
+<br/>
+
+#### Corremos el Demonio de Posgres 
+
+```
+sudo systemctl START postgresql
 ```
 
 <br/>
