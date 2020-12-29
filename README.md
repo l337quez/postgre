@@ -68,7 +68,7 @@ sudo systemctl status postgresql
 #### Mantener corriendo el Demonio
 
 ```
-sudo systemctl enable postgresql
+sudo systemctl enable postgresql.service
 ```
 
 <br/>
@@ -85,6 +85,19 @@ sudo -i -u postgres psql
 ```
 
 <br/>
+
+### Crear una base de Datos
+entramos a postgres
+```
+sudo -u postgres -i
+```
+creamos la tabla
+
+<br/>
+
+
+ ![alt text](https://assets.digitalocean.com/articles/pgadmin/create_server_box_resized.png)
+
 
 #### Mas informacion 
 https://linuxhint.com/install-postgresql-10-arch-linux/
