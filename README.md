@@ -119,4 +119,7 @@ creamos la tabla
 
 #### Mas informacion 
 https://linuxhint.com/install-postgresql-10-arch-linux/
+
 https://wiki.archlinux.org/index.php/PostgreSQL
+
+https://www.digitalocean.com/community/tutorials/how-to-install-configure-pgadmin4-server-mode-es
