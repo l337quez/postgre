@@ -101,7 +101,8 @@ Le pondemos cualquier nombre
 
 <br/>
 
-COnfiguramos el sevidor
+Configuramos el sevidor
+
  ![alt text](https://assets.digitalocean.com/articles/pgadmin/connection_tab_resized.png)
 
 
