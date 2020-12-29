@@ -108,7 +108,8 @@ Configuramos el sevidor
 
 <br/>
 
-Entramos a postgres
+##### Entramos a postgres por terminal
+Si queremos crear la tabla desde la terminal
 ```
 sudo -u postgres -i
 ```
