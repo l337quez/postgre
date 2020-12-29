@@ -3,6 +3,21 @@
 
 Siempre debe iniciar sesión como usuario de Postgres para usar o realizar cualquier tipo de administración de PostgreSQL. De lo contrario, puede obtener errores de permisos y es posible que las cosas no funcionen como se esperaba.
 
+#### Configuracion Inicial
+Antes de que PostgreSQL pueda funcionar correctamente, se debe inicializar el clúster de la base de datos: 
+```
+initdb -D /var/lib/postgres/data
+```
+
+<br/>
+
+#### Conocer el usuario que estas usando para postgresql
+
+```
+sudo -l postgres
+```
+
+<br/>
 
 #### Iniciamos sesion 
 
@@ -73,3 +88,4 @@ sudo -i -u postgres psql
 
 #### Mas informacion 
 https://linuxhint.com/install-postgresql-10-arch-linux/
+https://wiki.archlinux.org/index.php/PostgreSQL
