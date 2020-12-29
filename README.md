@@ -117,6 +117,12 @@ creamos la tabla
 
 <br/>
 
+## Ver la Tabla
+Si queremos ver la tabla asi como excell, debemos hacer click derecho en la tabla (ejm Precios) >> Script
+>> Select script >> Tecleamos F5
+
+<br/>
+
 #### Mas informacion 
 https://linuxhint.com/install-postgresql-10-arch-linux/
 
