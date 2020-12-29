@@ -87,17 +87,33 @@ sudo -i -u postgres psql
 <br/>
 
 ### Crear una base de Datos
-entramos a postgres
+creamos la tabla con pgAdmin.
+Hacemos click derecho y creamos un servidor.
+
+
+ ![alt text](https://assets.digitalocean.com/articles/pgadmin/create_server_box_resized.png)
+
+<br/>
+
+Le pondemos cualquier nombre
+
+ ![alt text](https://assets.digitalocean.com/articles/pgadmin/server_general_tab_resized.png)
+
+<br/>
+
+COnfiguramos el sevidor
+ ![alt text](https://assets.digitalocean.com/articles/pgadmin/connection_tab_resized.png)
+
+
+<br/>
+
+Entramos a postgres
 ```
 sudo -u postgres -i
 ```
 creamos la tabla
 
 <br/>
-
-
- ![alt text](https://assets.digitalocean.com/articles/pgadmin/create_server_box_resized.png)
-
 
 #### Mas informacion 
 https://linuxhint.com/install-postgresql-10-arch-linux/
