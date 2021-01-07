@@ -1,4 +1,5 @@
 ### Eliminar
+suponiendo que la tabla se llama users, solo va eliminar la data, la cabecera no la elimina.
 ```
 SELECT * FROM users;
 DELETE FROM users
