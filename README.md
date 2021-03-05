@@ -127,6 +127,11 @@ Si queremos ver la tabla asi como excell, debemos hacer click derecho en la tabl
 
 <br/>
 
+## Eliminar sesiones conectafas a la base de datos
+
+
+<br/>
+
 #### Mas informacion 
 https://linuxhint.com/install-postgresql-10-arch-linux/
 
