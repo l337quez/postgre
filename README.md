@@ -105,6 +105,10 @@ Configuramos el sevidor
 
  ![alt text](https://assets.digitalocean.com/articles/pgadmin/connection_tab_resized.png)
 
+<br/>
+
+### Eliminar una base de Datos
+En pgAdmin hacemos click derecho en la base de datos y clickiamos drop/delete
 
 <br/>
 
