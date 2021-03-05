@@ -128,6 +128,20 @@ Si queremos ver la tabla asi como excell, debemos hacer click derecho en la tabl
 <br/>
 
 ## Eliminar sesiones conectafas a la base de datos
+Si tenemos alguna sesion abierta no podremos eliminar una base de datos, asi que procedemos a elimnar todas las conexiones.
+Debemos camboar nombre_db  y user_postgre por sus datos
+```
+psql nombre_db user_postgre
+```
+
+Escribimos nuestra clave, luego eliminamos todas las conexiones.
+```
+SELECT  * FROM pg_stat_activity WHERE datname='nombre_db';
+```
+luego salimos para poder eliminar manualmente la db en pgadmin
+```
+exit
+```
 
 
 <br/>
