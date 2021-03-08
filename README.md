@@ -147,6 +147,7 @@ exit
 <br/>
 
 #### Mas informacion 
+excelente informacion aqui : https://www.arteco-consulting.com/gestion-de-usuarios-en-postgresql/
 https://linuxhint.com/install-postgresql-10-arch-linux/
 
 https://wiki.archlinux.org/index.php/PostgreSQL
