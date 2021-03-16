@@ -127,9 +127,9 @@ Si queremos ver la tabla asi como excell, debemos hacer click derecho en la tabl
 
 <br/>
 
-## Eliminar sesiones conectafas a la base de datos
+## Eliminar sesiones conectadas a la base de datos
 Si tenemos alguna sesion abierta no podremos eliminar una base de datos, asi que procedemos a elimnar todas las conexiones.
-Debemos camboar nombre_db  y user_postgre por sus datos
+Debemos cambiar nombre_db  y user_postgre por sus datos
 ```
 psql nombre_db user_postgre
 ```
