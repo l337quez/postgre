@@ -146,6 +146,15 @@ exit
 
 <br/>
 
+
+## Guardar una base de datos en un archivo .sql desde la terminal
+```
+pg_dump -U username -h localhost databasename >> sqlfile.sql
+```
+
+
+<br/>
+
 #### Mas informacion 
 excelente informacion aqui : https://www.arteco-consulting.com/gestion-de-usuarios-en-postgresql/
 https://linuxhint.com/install-postgresql-10-arch-linux/
