@@ -19,6 +19,15 @@ sudo -l postgres
 
 <br/>
 
+#### Cambiar clave del usuario para postgresql
+
+```
+sudo -u postgres psql -c "\password"
+```
+
+<br/>
+
+
 #### Iniciamos sesion 
 
 ```
