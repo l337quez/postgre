@@ -3,8 +3,9 @@ psql -h localhost -p 5432 -U name_user -d name_db
 
 
 ### Eliminar base de datos
+```bash
 drop database name_db;
-
+```
 ### Crear Base de datos
 create database name_db;
 
