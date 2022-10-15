@@ -1,16 +1,23 @@
 ### Conectarse a la base de datos
+```bash
 psql -h localhost -p 5432 -U name_user -d name_db
+```
 
 
 ### Eliminar base de datos
 ```bash
 drop database name_db;
 ```
+
 ### Crear Base de datos
+```bash
 create database name_db;
+```
 
 ### Asignar usuario
+```bash
 alter database name_db owner to name_user;
+```
 
 ### Eliminar
 suponiendo que la tabla se llama users, solo va eliminar la data, la cabecera no la elimina.
