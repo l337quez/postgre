@@ -179,6 +179,14 @@ pg_dump -U username -h localhost databasename >> sqlfile.sql
 
 <br/>
 
+## Restaurar una base de datos en un archivo .sql desde la terminal
+
+```
+pg_restore -i -h localhost -p 5432 -U postgres -d mibase -v "/home/damian/backups/mibase.backup"
+```
+
+<br/>
+
 #### Mas informacion 
 excelente informacion aqui : https://www.arteco-consulting.com/gestion-de-usuarios-en-postgresql/
 https://linuxhint.com/install-postgresql-10-arch-linux/
